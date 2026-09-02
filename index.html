@@ -24,7 +24,7 @@
     <div class="card"><div class="label">ETA</div><div class="value" id="eta">計測中</div></div>
   </section>
   <section class="chart"><h2>Training loss <span style="color:var(--muted);font-weight:400">— 瞬間値 / <span style="color:var(--violet)">50step移動平均</span></span></h2><canvas id="lossChart"></canvas></section>
-  <section class="chart"><h2>100M checkpoints / 固定Probe NLL <span style="color:var(--muted);font-weight:400">— 学習内固定標本、外部ベンチではありません</span></h2><div class="milestones" id="milestones"></div></section>
+  <section class="chart"><h2>100M checkpoints / 固定プローブNLL <span style="color:var(--muted);font-weight:400">— 学習の進行を確認する参考指標</span></h2><div class="milestones" id="milestones"></div></section>
   <div class="footer"><span id="state">接続中…</span><span id="updated"></span></div>
 </main>
 <script>
